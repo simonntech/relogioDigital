@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+
+
+:root {
+  --fontprincipal: "Rationale", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  padding: 0px;
+}
+
+section {
+  background-size: cover;
+  height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  font-family: var(--fontprincipal);
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  color: white;
+}
+
+
+article {
+  margin: auto;
+  background: rgba(10, 10, 10, 0.945);
+  width: 85vw;
+  height: 25vh;
+  border-radius: 24px;
+  color: yellowgreen;
+  font-size: 1.7rem;
+  font-family: monospace;
+  display: grid;
+  grid-template-rows: 20% 1fr;
+  place-items: center;
+  border: 1px solid white;
+}
+
+.cont-hora {
+  width: 180px;
+  background-image: linear-gradient(to bottom, #99cd32, #79a129);
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+#hora {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: var(--fontprincipal);
+  font-size: 4rem;
+}
+
+#dias {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  font-size: .9rem;
+}
+
+@media (min-width: 600px) {
+  article {
+    width: 50vw;
+  }
+}
