@@ -23,7 +23,7 @@ function Relogio() {
     if (horaatual > 6 && horaatual < 12) {
         icone.innerHTML = `<img src="assets/manha.png">`
         msg.innerHTML = `Bom dia`
-        bg.style.backgroundImage = `url(assets/manhafundo.jpg)`
+        bg.style.backgroundImage = `url(assets/fundomanha.jpg)`
     
     } if (horaatual >= 12 && horaatual < 18) {
         icone.innerHTML = `<img src="assets/tarde.png">`
